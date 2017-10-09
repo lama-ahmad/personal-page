@@ -33,3 +33,20 @@ body {
     bottom: 0px;
 }
 
+/* about page */
+
+#about-image {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#about-text {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    margin-top: 2%;
+}
