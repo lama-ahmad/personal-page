@@ -1,23 +1,38 @@
 body {
     background-color: #FCE4EC;
-    font-family: 'Nunito Sans', sans-serif;   
+    font-family: 'Lato', sans-serif;
     color: #7E7E7E; 
 }
 
+
+#social-icons li {
+    display: inline;    
+}
+
+
+
 #greeting {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 1%;
+    margin-top: 4%;
+    font-family: 'Julius Sans One', sans-serif;    
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 0;   
+    
 }
 
 #nav-bar-container {
-    text-align: center;
+    margin-top: 6%;
+    width: 90%;
+    text-align: right;
+    font-family: 'Julius Sans One', sans-serif;
+    
 }
 
 #nav-bar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1%;
 }
 
 #nav-bar li {
@@ -25,28 +40,43 @@ body {
     padding: 2%;
 }
 
-#lama-img {
-    z-index: -1;
-    opacity: 0.5;
-    position: absolute;
-    right: 25px;
-    bottom: 0px;
+
+#lefttop-div {
+    align-content: center;
 }
 
-/* about page */
-
-#about-image {
+#main-img {
     display: block;
     margin: auto;
-    width: 75%;
-    height: auto;
-    margin-top: 5%;
-}
-
-#about-text {
-    display: block;
-    margin: auto;
-    width: 75%;
+    width: 80%;
     height: auto;
     margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
+
+#rightbottom-div {
+    margin: auto;
+    margin-top: 1%;
+    font-size: 16px;
+    
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #7E7E7E;
+}
+
+a:visited {
+    color: #7E7E7E;    
+}
+
+a:active {
+    color: #7E7E7E;    
+    font-weight: bold;
+    text-decoration: underline;    
+}
+
+
